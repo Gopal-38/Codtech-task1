@@ -1,0 +1,20 @@
+while(1):
+      a = int(input('enter first number:'))
+      b = int(input('enter second number:'))
+      choice = int(input('enter your choice:'))
+      if choice == 1:
+           c = a+b
+           print('sum of two numbers :',c)
+    #subtraction of two numbers 
+      elif choice == 2:
+           c = a - b
+           print('subtraction of two numbers :',c)
+    #Multiplication of two numbers 
+      elif choice == 3:
+           c = a*b
+           print('multiplication of two numbers :',c)
+    #Division of two numbers 
+      else:
+          c = a/b
+          print('division of two numbers :',c)
+
